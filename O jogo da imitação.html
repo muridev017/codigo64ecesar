@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codigo</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="stylle.css">
+    <script src="engine.js" defer></script>
+</head>
+   
+<body>
+    <main>
+        <h1 class="titulo">O jogo da imitação</h1>
+    </main>
+
+        <div class="div1">
+            Desenvolvido por:  Murilo Mininel
+        </div>
+        <div class="caixa">
+        <div class="div2">
+            Digita aqui que a gente codifica, ou decodifica...
+        </div>
+
+        <select name="" id="seuCode">
+            <option value="0">Selecione</option>
+            <option value="1">Cifra de César</option>
+            <option value="2">Base 64</option>
+        </select>
+        
+        <input type="radio" id="codifica" name="cod">
+        <label for="codifica">Codifica</label>
+        <input type="radio" id="decodifica" name="cod">
+        <label for="decodifica">Decodifica</label>
+        
+        
+        <input type="text" id="manda" value="">
+        <button id="mandaCod">Codificar</button>
+        <div id="cifra">
+            <h2>Qual o valor da chave?</h2>
+            <input type="number" id="add" max="26" min="0">
+           
+        </div>
+        <div>
+            <p>Fica assim:</p>
+            <output type="text" id="results"></output>
+        </div>
+        </div>
+        
+</body>
+        
+</html>
